@@ -41,7 +41,7 @@ def word2id(word: str):
     :return:
     """
     try:
-        return WordVector().vocab[word].index
+        return WordVector().key_to_index[word]
     except KeyError:
         return -1
 

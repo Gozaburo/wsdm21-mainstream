@@ -3,7 +3,6 @@ import logging
 from load_data import amazon_deepconn_load, amazon_fm_load, beer_deepconn_load, beer_fm_load
 from model import DeepCoNNTrainTest, FMTrainTest
 import os
-import yaml
 from guppy import hpy
 import numpy as np
 import torch
